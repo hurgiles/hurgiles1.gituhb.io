@@ -1,0 +1,201 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/stylesheets/style.css" />
+    <title>Curriculum Vitae</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Curriculum Vitae</h1>
+    </header>
+
+    <!-- Nav: Inicio -->
+    <nav>
+      <ul>
+        <li><a href="#secciondatos">Datos Personales</a></li>
+        <li><a href="#seccionredes">Redes Sociales</a></li>
+        <li><a href="#seccionhabilidades">Habilidades</a></li>
+        <li><a href="#secciongaleria">Galería</a></li>
+        <li><a href="#seccioncontactenos">Contáctenos</a></li>
+      </ul>
+    </nav>
+    <!-- Nav: Fin -->
+
+    <section id="secciondatos" class="seccion">
+      <h2>Datos personales</h2>
+
+      <span>Nombres: Hector Augusto</span>
+      <span>Apellidos: Urgiles Gomez</span>
+
+      <p>¡Hola! Soy Hector Urgiles, con experiencia en desarrollo web en front end y
+        back end. Participo en todas las etapas
+        del ciclo de desarrollo de proyectos web dinámicos. Además, tengo
+        sólidos conocimientos en gestión de proyectos
+        y relaciones con los clientes.</p>
+
+    </section>
+
+    <section id="seccionredes" class="seccion">
+      <h2>Redes sociales</h2>
+
+      <span><a href="https://www.linkedin.com/">LinkedIn</a></span>
+      <span><a href="https://github.com/">Github</a></span>
+
+    </section>
+    
+    <section id="seccioneducacion" class="seccion">
+      <h2>Educación</h2>
+      <ul>
+        <li>Unidad Educativa Alborada</li>
+        <li>Escuela Superior Politécnica del Litoral</li>
+      </ul>
+    </section>
+
+    <section id="seccionhabilidades" class="seccion">
+      <h2>Habilidades Profesionales</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+      </ul>
+
+      <h2>Idiomas</h2>
+      <table>
+        <caption>Habilidad en idiomas</caption>
+        <tr>
+          <th></th>
+          <th>Básico</th>
+          <th>Intermedio</th>
+          <th>Avanzado</th>
+          <th>Nativo</th>
+        </tr>
+        <tr>
+          <th>Inglés</th>
+          <td></td>
+          <td></td>
+          <td>x</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>Español</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>x</td>
+        </tr>
+      </table>
+
+      <h2>Contenidos Transversales</h2>
+      <ol>
+        <li>Docker</li>
+        <li>AWS</li>
+      </ol>
+    </section>
+    
+    <section id="seccionexperiencia" class="seccion">
+      <h2>Experiencia</h2>
+      <ul>
+        <li>Webtel S.A</li>
+      </ul>
+    </section>
+
+    <aside id="secciongaleria" class="seccion">
+      <img src="public/images/reading.jpg" alt="Reading" width="50%">
+      <img
+        src="https://cdn.pixabay.com/photo/2015/05/29/19/18/cafe-789635_960_720.jpg"
+        alt="Foto de colaboración" width="50%">
+
+    </aside>
+
+    <section id="seccioncontactenos" class="seccion">
+      <h2 class="titulo">Contáctame</h2>
+      <h3 class="datos">Sus datos</h3>
+
+      <div class="formulario">
+        <form class="form">
+          <div>
+            <label for="nombre">Nombres:</label><input type="text" name="nombre"
+            id="nombre">
+          </div>
+          <div>
+            <label for="nombre">Apellidos:</label><input type="text"
+              name="apellidos"
+              id="apellidos">
+          </div>
+  
+          <div class="radio">
+            <label for="edad">Seleccione su rango de edad</label>
+            <div>
+              <input type="radio" id="opcion1" name="edad" value="menor25"><label
+                for="opcion1"> menor a 25 años</label>
+            </div>
+            <div>
+              <input type="radio" id="opcion2" name="edad" value="entre26y20"><label
+                for="opcion2"> entre 26 y 30 años</label>
+            </div>
+            <div>
+              <input type="radio" id="opcion3" name="edad" value="mayor31"><label
+                for="opcion3"> mayor a 31 años</label>
+            </div>
+          </div>
+  
+          <div class="checkbox">
+            <label for="tiposervicio">Seleccione el tipo de servicio a consultar</label>
+            <div>
+              <input type="checkbox" name="frontend" id="frontend"><label
+                for="frontend">Frontend Dev</label>
+            </div>
+            <div>
+              <input type="checkbox" name="backend" id="backend"><label for="backend">Backend
+                Dev</label>
+            </div>
+            <div>
+              <input type="checkbox" name="scrum" id="scrum"><label for="scrum">Desarrollo
+                de software</label>
+            </div>
+            <div>
+              <input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label>
+            </div>
+          </div>
+          <button type="submit" class="btt">Enviar</button>
+        </form>
+      </div>
+
+      <h3 class="ubicacion">Ubicación</h3>
+      <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4741.387375806044!2d-79.96698032183643!3d-2.1476954035088953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d730180170e13%3A0x522f46e32b5dc552!2sSweet%20%26%20Coffee%20-%20ESPOL!5e0!3m2!1ses-419!2sec!4v1674248396467!5m2!1ses-419!2sec" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      
+
+    </section>
+
+    <footer>
+      <address class="contacto">
+        <div>
+          Email: <a href="mailto:CORREO">yeiden1481@gmail.com</a>
+        </div>
+        <div>
+          Tel: <a href="tel:+TELEFONO">0989565628</a>
+        </div>
+        <div>
+          DIRECCIÓN
+        </div>
+        <div>
+          CIUDAD
+        </div>
+        <div>
+          PAÍS
+        </div>
+      </address>
+    </footer>
+
+    
+
+  </body>
+</html>
